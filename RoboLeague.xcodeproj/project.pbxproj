@@ -1,0 +1,64 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA00000100000000000000CA /* RoboLeagueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000007A /* RoboLeagueApp.swift */; };
+		AA00000100000000000000CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000008A /* ContentView.swift */; };
+		AA00000100000000000000CC /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000009A /* WebView.swift */; };
+		AA00000100000000000000CD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000100000000000000AA /* HomeView.swift */; };
+		AA00000100000000000000CE /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000100000000000000AB /* ShopView.swift */; };
+		AA00000100000000000000CF /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000100000000000000AC /* AboutView.swift */; };
+		AA00000100000000000000DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA00000100000000000000AE /* Assets.xcassets */; };
+		AA00000100000000000000DA /* Info.plist build reference */ = {isa = PBXBuildFile; fileRef = AA00000100000000000000AD /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA000001000000000000007A /* RoboLeagueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboLeagueApp.swift; sourceTree = "<group>"; };
+		AA000001000000000000008A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA000001000000000000009A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		AA00000100000000000000AA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AA00000100000000000000AB /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		AA00000100000000000000AC /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		AA00000100000000000000AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA00000100000000000000AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA00000100000000000000FA /* RoboLeague.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboLeague.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA00000100000000000000BC /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+		AA000001000000000000002A = {isa = PBXGroup; children = (AA000001000000000000003A /* RoboLeague */, AA000001000000000000005A /* Products */); sourceTree = "<group>"; };
+		AA000001000000000000003A /* RoboLeague */ = {isa = PBXGroup; children = (AA000001000000000000007A /* RoboLeagueApp.swift */, AA000001000000000000008A /* ContentView.swift */, AA000001000000000000004A /* Views */, AA00000100000000000000AE /* Assets.xcassets */, AA00000100000000000000AD /* Info.plist */); path = RoboLeague; sourceTree = "<group>"; };
+		AA000001000000000000004A /* Views */ = {isa = PBXGroup; children = (AA000001000000000000009A /* WebView.swift */, AA00000100000000000000AA /* HomeView.swift */, AA00000100000000000000AB /* ShopView.swift */, AA00000100000000000000AC /* AboutView.swift */); path = Views; sourceTree = "<group>"; };
+		AA000001000000000000005A /* Products */ = {isa = PBXGroup; children = (AA00000100000000000000FA /* RoboLeague.app */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+		AA000001000000000000006A /* RoboLeague */ = {isa = PBXNativeTarget; buildConfigurationList = AA00000100000000000000ED /* Build configuration list for PBXNativeTarget "RoboLeague" */; buildPhases = (AA00000100000000000000BA /* Sources */, AA00000100000000000000BC /* Frameworks */, AA00000100000000000000BB /* Resources */); buildRules = (); dependencies = (); name = RoboLeague; productName = RoboLeague; productReference = AA00000100000000000000FA /* RoboLeague.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+		AA000001000000000000001A /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {AA000001000000000000006A = {CreatedOnToolsVersion = 15.0;};};}; buildConfigurationList = AA00000100000000000000EC /* Build configuration list for PBXProject "RoboLeague" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = AA000001000000000000002A; productRefGroup = AA000001000000000000005A /* Products */; projectDirPath = ""; projectRoot = ""; targets = (AA000001000000000000006A /* RoboLeague */); };
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+		AA00000100000000000000BB /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (AA00000100000000000000DB /* Assets.xcassets in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+		AA00000100000000000000BA /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AA00000100000000000000CA /* RoboLeagueApp.swift in Sources */, AA00000100000000000000CB /* ContentView.swift in Sources */, AA00000100000000000000CC /* WebView.swift in Sources */, AA00000100000000000000CD /* HomeView.swift in Sources */, AA00000100000000000000CE /* ShopView.swift in Sources */, AA00000100000000000000CF /* AboutView.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+		AA00000100000000000000EA /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.9;}; name = Debug; };
+		AA00000100000000000000EB /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.9;}; name = Release; };
+		AA00000100000000000000EE /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = RoboLeague/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.vrfl.roboleague; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.9; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
+		AA00000100000000000000EF /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = RoboLeague/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.vrfl.roboleague; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.9; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+		AA00000100000000000000EC /* Build configuration list for PBXProject "RoboLeague" */ = {isa = XCConfigurationList; buildConfigurations = (AA00000100000000000000EA /* Debug */, AA00000100000000000000EB /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AA00000100000000000000ED /* Build configuration list for PBXNativeTarget "RoboLeague" */ = {isa = XCConfigurationList; buildConfigurations = (AA00000100000000000000EE /* Debug */, AA00000100000000000000EF /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = AA000001000000000000001A /* Project object */;
+}
