@@ -8,9 +8,9 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.vrfl.roboleague
+        bundle_identifier: com.jrwtech.roboleague
       vars:
-        BUNDLE_ID: com.vrfl.roboleague
+        BUNDLE_ID: com.jrwtech.roboleague
         XCODE_PROJECT: RoboLeague.xcodeproj
         XCODE_SCHEME: RoboLeague
     scripts:
