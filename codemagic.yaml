@@ -6,6 +6,9 @@ workflows:
     integrations:
       app_store_connect: Codemagic iOS Builds
     environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.jrwtech.roboleague
       vars:
         BUNDLE_ID: com.jrwtech.roboleague
         XCODE_PROJECT: RoboLeague.xcodeproj
@@ -17,8 +20,8 @@ workflows:
       - name: Build and archive
         script: |
           xcodebuild \
-            -project RoboLeague.xcodeproj \
-            -scheme RoboLeague \
+            -project "$XCODE_PROJECT" \
+            -scheme "$XCODE_SCHEME" \
             -configuration Release \
             -archivePath build/RoboLeague.xcarchive \
             archive \
