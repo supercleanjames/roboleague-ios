@@ -16,7 +16,7 @@
   100000000000000000000054 = { isa = PBXBuildFile; fileRef = 100000000000000000000064; };
   100000000000000000000055 = { isa = PBXBuildFile; fileRef = 100000000000000000000065; };
   100000000000000000000056 = { isa = PBXBuildFile; fileRef = 100000000000000000000066; };
-  100000000000000000000057 = { isa = PBXBuildFile; fileRef = 100000000000000000000067; };
+  100000000000000000000057 = { isa = PBXBuildFile; fileRef = 100000000000000000000068; };
   100000000000000000000060 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboLeagueApp.swift; sourceTree = "<group>"; };
   100000000000000000000061 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
   100000000000000000000062 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -24,7 +24,6 @@
   100000000000000000000064 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
   100000000000000000000065 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
   100000000000000000000066 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-  100000000000000000000067 = { isa = PBXBuildFile; fileRef = 100000000000000000000068; };
   100000000000000000000068 = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
   100000000000000000000040 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboLeague.app; sourceTree = BUILT_PRODUCTS_DIR; };
   100000000000000000000020 = { isa = PBXGroup; children = ( 100000000000000000000069, 100000000000000000000070, ); sourceTree = "<group>"; };
