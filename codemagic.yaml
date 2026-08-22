@@ -24,12 +24,13 @@ workflows:
             -scheme "$XCODE_SCHEME" \
             -configuration Release \
             -archivePath build/RoboLeague.xcarchive \
-            -destination "generic/platform=iOS" \
+            -sdk iphoneos \
             archive \
             CODE_SIGN_STYLE=Manual \
             DEVELOPMENT_TEAM=$CM_TEAM_ID \
             PROVISIONING_PROFILE_SPECIFIER="RoboLeague_AppStore" \
-            CODE_SIGN_IDENTITY="Apple Distribution"
+            CODE_SIGN_IDENTITY="Apple Distribution" \
+            SDKROOT=iphoneos
       - name: Export IPA
         script: |
           xcodebuild \
