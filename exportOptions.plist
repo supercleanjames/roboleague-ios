@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>method</key>
-  <string>app-store</string>
+  <string>app-store-connect</string>
   <key>teamID</key>
   <string>JPS5HW9782</string>
   <key>uploadBitcode</key>
@@ -17,7 +17,7 @@
   <key>provisioningProfiles</key>
   <dict>
     <key>com.jrwtech.roboleague</key>
-    <string>RoboLeague_AppStore</string>
+    <string>RoboLeague App Store Distribution</string>
   </dict>
 </dict>
 </plist>
