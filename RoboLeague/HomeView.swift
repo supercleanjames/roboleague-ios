@@ -14,8 +14,8 @@ struct HomeView: View {
                         }.padding(.top, 40)
                         VStack(spacing: 16) {
                             Text("Join the Future of Football").font(.title2.bold()).foregroundStyle(.white)
-                            TierCard(title: "Participant", price: "$10/season", description: "Watch, bet, and engage with robot football games.", color: .green, icon: "person.fill")
-                            TierCard(title: "Team Owner", price: "$10,000", description: "Own a robot team, control strategy, earn revenue.", color: .yellow, icon: "star.fill")
+                            TierCard(title: "Participant", price: "$10/season", description: "Watch, bet, and engage with robot football games.", icon: "person.fill", color: .green)
+                            TierCard(title: "Team Owner", price: "$10,000", description: "Own a robot team, control strategy, earn revenue.", icon: "star.fill", color: .yellow)
                         }.padding(.horizontal)
                         Link(destination: URL(string: "https://roboleague.live")!) {
                             Label("Visit RoboLeague.live", systemImage: "globe").fontWeight(.bold).foregroundStyle(.black).frame(maxWidth: .infinity).padding().background(.green).clipShape(RoundedRectangle(cornerRadius: 12)).padding(.horizontal)
